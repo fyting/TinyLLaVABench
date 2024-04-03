@@ -188,11 +188,13 @@ In our paper, we used two different datasets: the [LLaVA dataset](https://github
 * ShareGPT4V: The pretraining images of ShareGPT4V is a mixture of 558K LAION-CC-SBU subset, SAM dataset, and COCO dataset.
 
 ### Pretraining Annotations
+预训练使用的是caption数据
 * LLaVA: The pretraining annotations of LLaVA are [here](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain).
 * ShareGPT4V: The pretraining annotations of ShareGPT4V are [here](https://huggingface.co/datasets/Lin-Chen/ShareGPT4V/blob/main/share-captioner_coco_lcs_sam_1246k_1107.json).
 
 
 ### SFT Images & Annotations
+SFT使用的是多轮对话数据
 The majority of the two SFT datasets are the same, with the exception that the 23K detailed description data in LLaVA-1.5-SFT being replaced with detailed captions randomly sampled from the [100K ShareGPT4V data](https://huggingface.co/datasets/Lin-Chen/ShareGPT4V/blob/main/sharegpt4v_instruct_gpt4-vision_cap100k.json).
 
 ### Download data
