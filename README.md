@@ -195,6 +195,7 @@ In our paper, we used two different datasets: the [LLaVA dataset](https://github
 
 ### SFT Images & Annotations
 SFT使用的是多轮对话数据
+
 The majority of the two SFT datasets are the same, with the exception that the 23K detailed description data in LLaVA-1.5-SFT being replaced with detailed captions randomly sampled from the [100K ShareGPT4V data](https://huggingface.co/datasets/Lin-Chen/ShareGPT4V/blob/main/sharegpt4v_instruct_gpt4-vision_cap100k.json).
 
 ### Download data
